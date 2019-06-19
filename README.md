@@ -1,5 +1,19 @@
 ###### Prerequisite: Please download [Git lfs](https://git-lfs.github.com/) 
- 
+
+```bash
+sudo apt install git-lfs
+
+# in git repo
+git lfs install
+git lfs pull
+```
+  
+###### Optional: Install conda environment, with jupyter, gensim, nltk, pandas, scikit-learn, ...
+
+```bash
+conda env create -f environment.yml
+```
+  
 # [Same Side Classification](https://sameside.webis.de) 
 
 Identifying (classifying) the stance of an argument towards a particular topic is a fundamental task in computational argumentation. The stance of an argument as considered here is a two-valued function: it can either be ''pro'' a topic (= yes, I agree), or ''con'' a topic (= no, I do not agree).

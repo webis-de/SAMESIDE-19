@@ -1,0 +1,22 @@
+# Conda Environment file for argmining19-same-side-classification
+# use:  conda env create -f environment.yml
+name: argmining19-ssc
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  # jupyter
+  - gensim
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - matplotlib
+  - nltk
+  - numpy
+  - pandas
+  - scikit-learn
+  # styling
+  - autopep8
+  - black
+  - flake8
+  - isort
+  - yapf
