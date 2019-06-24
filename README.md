@@ -2,6 +2,8 @@
 
 ```bash
 sudo apt install git-lfs
+# alternatively (if you don't have root and installed but use conda, see next note about conda environment)
+conda install -c conda-forge git-lfs
 
 # in git repo
 git lfs install
@@ -12,6 +14,7 @@ git lfs pull
 
 ```bash
 conda env create -f environment.yml
+conda activate argmining19-ssc
 ```
   
 # [Same Side Classification](https://sameside.webis.de) 
