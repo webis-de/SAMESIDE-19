@@ -14,7 +14,8 @@ dependencies:
   - numpy
   - pandas
   - scikit-learn
-  # others
+  - seaborn
+    # others
   - tqdm
   # styling
   - autopep8
