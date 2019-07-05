@@ -2,3 +2,16 @@ original/
 predicted/
 evaluator.*
 .ipynb_checkpoints/*
+
+# xlnet data (checkpoints, in-/output of tensorflow)
+data/xlnet-chkp/
+data/xlnet-in/
+data/xlnet-out/
+
+# models
+data/xlnet_cased_L-24_H-1024_A-16/
+
+# repos
+sentence_embedding/
+bert
+xlnet/
