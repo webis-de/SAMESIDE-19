@@ -11,6 +11,8 @@ data/xlnet-out/
 # models
 data/xlnet_cased_L-24_H-1024_A-16/
 
+bert.model*params
+
 # repos
 sentence_embedding/
 bert
