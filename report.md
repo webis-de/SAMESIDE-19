@@ -90,7 +90,7 @@ Repo: https://github.com/Querela/argmining19-same-side-classification/
 	- if accuaracy of 'tag' at current training step is above 50% then reverse the gradient of 'tag'
 	- then only sum both losses of 'is_same_side' and 'tag'
 - result:
-	- only works if gradient of tag is not too small (e. g. tag is already trained (0% or 100% accuracy))
+	- only works if gradient of tag is not too small (e. g. tag is already trained (0% or 100% accuracy), it can't be changed anymore)
 	- if tag is around 50%, training works, but result are  
 	83% for within model on within dev set,  
 	83% within model on cross dev set
