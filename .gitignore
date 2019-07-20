@@ -12,6 +12,8 @@ data/xlnet-out/
 data/xlnet_cased_L-24_H-1024_A-16/
 
 bert.model*params
+*.pickle
+events.out.tfevents.*.cuda
 
 # repos
 sentence_embedding/
