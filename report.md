@@ -80,7 +80,7 @@ Repo: https://github.com/Querela/argmining19-same-side-classification/
 | 6  | (a)(iii), (c), d(ii)				| within 91%, cross 92%, within->cross 94%, cross->within 85%  	| pro+epi, 512, binary	| best	| [notebook](https://github.com/Querela/argmining19-same-side-classification/blob/bert/same-side-classification-bert-BCE-prolog%2Bepilog.ipynb) |
 | 7  | (a)(iii), (b)(iv), (c), d(ii)	| within 90% 								| pro+epi, trim random  					| 		| [notebook](https://github.com/Querela/argmining19-same-side-classification/tree/bert/same-side-classification-bert-BCE-rand2.ipynb) |
 | 8  | (a)(iii), (b)(iii), (d)(i)		| within 88% 								| middle part 								|   	| [notebook](https://github.com/Querela/argmining19-same-side-classification/tree/bert/same-side-classification-bert-middle.ipynb) |
-| 9  | (a)(iii), (c), d(ii)				| within 92%, within->cross 96%  	| pro+epi, 512, binary, train/dev split 0.1, _19h for 4 epochs_	| best-er	| [notebook](https://github.com/Querela/argmining19-same-side-classification/blob/bert/same-side-classification-bert-BCE-prolog%2Bepilog.ipynb) |
+| 9  | (a)(iii), (c), d(ii)				| within 92%, within->cross 96%  	| pro+epi, 512, binary, train/dev split 0.1, 4 epochs, _19h for 4 epochs_	| best-er	| [notebook](https://github.com/Querela/argmining19-same-side-classification/blob/bert/same-side-classification-bert-BCE-prolog%2Bepilog.ipynb) |
 
 
 ### Adversarial:
