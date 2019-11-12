@@ -7,9 +7,16 @@ evaluator.*
 data/xlnet-chkp/
 data/xlnet-in/
 data/xlnet-out/
+data/cross_*
+data/within_*
+data/doc2vec_temp/
 
 # models
 data/xlnet_cased_L-24_H-1024_A-16/
+
+logs/transformers/
+outputs/transformers/
+data/transformers/
 
 bert.model*params
 *.pickle
